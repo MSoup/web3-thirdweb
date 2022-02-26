@@ -7,7 +7,7 @@ async function main() {
 
   const bundleModule = await app.deployBundleModule({
     name: 'Lootbox Bundle',
-    sellerFeeBasisPoints: 0,
+    sellerFeeBasisPoints: 100,
   });
 
   console.log(`Deployed bundle collection module with address ${bundleModule.address}`);
